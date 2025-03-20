@@ -156,3 +156,6 @@ final_train_acc = history.history['accuracy'][-1]
 final_val_acc = history.history['val_accuracy'][-1]
 print(f"Final Train Accuracy: {final_train_acc:.4f}")
 print(f"Final Validation Accuracy: {final_val_acc:.4f}")
+model.save("deeplabv3_model.h5")
+
+
